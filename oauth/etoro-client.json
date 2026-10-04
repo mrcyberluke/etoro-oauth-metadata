@@ -1,0 +1,16 @@
+{
+  "client_id": "https://mrcyberluke.github.io/etoro-oauth-metadata/oauth/etoro-client.json",
+  "client_name": "OpenClaw eToro Demo Read Only",
+  "redirect_uris": [
+    "http://127.0.0.1:8989/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "etoro-public:demo:read"
+}
